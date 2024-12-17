@@ -16,6 +16,6 @@ def generate_combinations(values):
     
     return table
 
-values = ['A', 'Q', '6']
+values = ['K', '9', '8','7','6']
 markdown_table = generate_combinations(values)
 print(markdown_table)
